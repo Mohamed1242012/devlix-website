@@ -147,6 +147,30 @@ footer {
 }
 
 
+/* Features section */
+#features ul {
+    display: flex;
+    flex-wrap: wrap;  /* Allow wrapping */
+    gap: 1.5em;  /* Space between items */
+}
+
+#features ul li {
+    display: flex;
+    align-items: flex-start;  /* Align items at the start (top) */
+    max-width: 300px;  /* Set a maximum width for each item */
+    flex: 1;  /* Allow the items to grow if necessary */
+}
+
+#features ul li i {
+    margin-right: 0.8em;
+    font-size: 1.5em;  /* Size of the icon */
+    color: #dcdcdc;
+}
+
+#features ul li span {
+    flex-grow: 1;  /* Allow the text to grow */
+}
+
 /* Code styling */
 code {
     font-family: 'JetBrains Mono', monospace;
@@ -188,6 +212,8 @@ header {
 }
 
 @keyframes fadeIn {
+
+
     to {
         opacity: 1;
     }

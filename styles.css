@@ -204,17 +204,12 @@ header {
     margin-top: 5em;
 }
 
-
-
-.fadeIn {
+/* Fade-in animation */
+.fade-in {
     opacity: 0;
-    animation: fadeIn 1s forwards;
+    transition: opacity 0.6s ease-out; /* Faster transition */
 }
 
-@keyframes fadeIn {
-
-
-    to {
-        opacity: 1;
-    }
+.fade-in.visible {
+    opacity: 1;
 }

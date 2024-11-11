@@ -222,7 +222,7 @@ header {
     margin-right: auto;
     margin-bottom: 2rem;
     max-width: 200px;  /* Set a maximum width to avoid too large logos */
-    width: 100%;  /* Allow the logo to scale down while maintaining aspect ratio */
+    /* width: 100%;  Allow the logo to scale down while maintaining aspect ratio */
     /* border-radius: 8px;  Optional: adds a subtle rounded corner */
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  Optional: adds a shadow for better contrast */
 }
